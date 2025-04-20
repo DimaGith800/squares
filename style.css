@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes {
+    max-width: 700px;
+    position: relative;
+    display: flex;
+}
+.red {
+    width: 170px;
+    height: 150px;
+    background-color: #ff8888;
+    color:#ff8888;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.blue {
+    width: 170px;
+    height: 150px;
+    background-color: #7e8aeb;
+    color:#7e8aeb;
+    position: absolute;
+    left: 150px;
+    top: 130px;
+}
+.green {
+    width: 170px;
+    height: 150px;
+    background-color: #4def99;
+    color:#4def99;
+    position: absolute;
+    left: 250px;
+    top: 210px;
+}
